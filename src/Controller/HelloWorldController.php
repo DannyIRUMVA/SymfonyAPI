@@ -17,6 +17,6 @@ class HelloWorldController extends AbstractController
         'message' => 'Hello from Symfony!',
     ];
 
-    return $this->render('my_template.html.twig', $data);
+    return $this->render('homePage.html.twig', $data);
     }
 }
