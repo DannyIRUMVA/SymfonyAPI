@@ -18,5 +18,7 @@ class HelloWorldController extends AbstractController
     ];
 
     return $this->render('homePage.html.twig', $data);
+
+        // this will come after we make money
     }
 }
